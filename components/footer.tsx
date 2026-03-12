@@ -58,6 +58,7 @@ export function Footer() {
                   alt="Pizzaria Dona Rosa"
                   width={100}
                   height={100}
+                  loading="lazy"
                   className="relative rounded-full transition-transform duration-300 group-hover:scale-105"
                   style={{ clipPath: "circle(50% at 50% 50%)" }}
                 />
