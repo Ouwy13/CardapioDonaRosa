@@ -87,34 +87,27 @@ export function Hero() {
 
       {/* Scroll hint */}
       <div
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 transition-all duration-1000 ${
+        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 transition-all duration-1000 ${
           mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
         }`}
         style={{ transitionDelay: "0.9s" }}
       >
         <span className="text-muted-foreground text-xs uppercase tracking-[0.25em] font-medium">
-          Ver Cardapio
+          Cardapio
         </span>
-        {/* Animated chevron stack */}
-        <div className="flex flex-col items-center gap-0.5">
-          {[0, 1, 2].map((i) => (
-            <svg
-              key={i}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="w-4 h-4 text-primary animate-bounce"
-              style={{ animationDelay: `${i * 0.15}s` }}
-              aria-hidden="true"
-            >
-              <polyline points="6 9 12 15 18 9" />
-            </svg>
-          ))}
-        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="w-5 h-5 text-primary animate-bounce"
+          aria-hidden="true"
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
       </div>
     </section>
   )
