@@ -46,6 +46,8 @@ export function Navbar() {
                 width={52}
                 height={52}
                 className="rounded-full"
+                loading="eager"
+                priority
                 style={{ 
                   clipPath: "circle(50% at 50% 50%)",
                 }}
