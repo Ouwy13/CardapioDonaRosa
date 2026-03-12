@@ -3,6 +3,7 @@ import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { MenuSection } from "@/components/menu-section"
 import { Footer } from "@/components/footer"
+import { WhatsappButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <MenuSection />
       <Footer />
+      <WhatsappButton />
     </main>
   )
 }

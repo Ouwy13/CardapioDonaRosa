@@ -7,8 +7,9 @@ import { Menu, X } from "lucide-react"
 const navLinks = [
   { href: "#cardapio", label: "Cardápio" },
   { href: "#especiais", label: "Especiais" },
-  { href: "#pasteis", label: "Pastéis" },
   { href: "#bebidas", label: "Bebidas" },
+  { href: "#pasteis", label: "Pastéis" },
+  { href: "#porcoes", label: "Porções" },
   { href: "#contato", label: "Contato" },
 ]
 
@@ -43,9 +44,11 @@ export function Navbar() {
               <Image
                 src="/Logo.jpg"
                 alt="Pizzaria Dona Rosa"
-                width={52}
-                height={52}
+                width={64}
+                height={64}
                 className="rounded-full"
+                loading="eager"
+                priority
                 style={{ 
                   clipPath: "circle(50% at 50% 50%)",
                 }}

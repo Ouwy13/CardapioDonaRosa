@@ -56,14 +56,14 @@ export function Footer() {
                 <Image
                   src="/Logo.jpg"
                   alt="Pizzaria Dona Rosa"
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                   className="relative rounded-full transition-transform duration-300 group-hover:scale-105"
                   style={{ clipPath: "circle(50% at 50% 50%)" }}
                 />
               </div>
               <p className="font-serif text-xl text-foreground/80 italic mt-4">
-                Sabor que conquista.
+                A pizza que você respeita, o recheio que você merece.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export function Footer() {
             style={{ transitionDelay: "0.4s" }}
           >
             <p className="text-sm text-muted-foreground">
-              © 2025 Pizzaria Dona Rosa
+              © 2026 Pizzaria Dona Rosa. Todos os direitos reservados.
             </p>
           </div>
         </div>
