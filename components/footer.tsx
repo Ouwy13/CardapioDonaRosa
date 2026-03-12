@@ -63,7 +63,7 @@ export function Footer() {
                 />
               </div>
               <p className="font-serif text-xl text-foreground/80 italic mt-4">
-                Sabor que conquista.
+                A melhor pizza do Maranhao.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export function Footer() {
             style={{ transitionDelay: "0.4s" }}
           >
             <p className="text-sm text-muted-foreground">
-              © 2025 Pizzaria Dona Rosa
+              © 2026 Pizzaria Dona Rosa. Todos os direitos reservados.
             </p>
           </div>
         </div>

@@ -55,7 +55,7 @@ export function Hero() {
           }`}
           style={{ transitionDelay: "0.4s" }}
         >
-          Brejo, Maranhao — desde sempre
+          Brejo, Maranhao — Tradição e Sabor desde o Primeiro Forno
         </p>
 
         {/* CTA Buttons */}
