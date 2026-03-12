@@ -6,9 +6,9 @@ import Image from "next/image"
 const menuImages = [
   { src: "/p1.jpg", alt: "Cardapio de Pizzas Tradicionais", id: "cardapio" },
   { src: "/p2.jpg", alt: "Cardapio de Pizzas Especiais e Pizza Bolo", id: "especiais" },
+  { src: "/p3.jpg", alt: "Cardapio de Bebidas e Pizzas Doces", id: "bebidas" },
   { src: "/p4.jpg", alt: "Cardapio de Pasteis", id: "pasteis" },
   { src: "/p5.jpg", alt: "Cardapio de Porcoes e Tira Gosto", id: "porcoes" },
-  { src: "/p3.jpg", alt: "Cardapio de Bebidas e Pizzas Doces", id: "bebidas" },
 ]
 
 function MenuCard({ src, alt, id, index }: { src: string; alt: string; id: string; index: number }) {

@@ -56,14 +56,14 @@ export function Footer() {
                 <Image
                   src="/Logo.jpg"
                   alt="Pizzaria Dona Rosa"
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                   className="relative rounded-full transition-transform duration-300 group-hover:scale-105"
                   style={{ clipPath: "circle(50% at 50% 50%)" }}
                 />
               </div>
               <p className="font-serif text-xl text-foreground/80 italic mt-4">
-                A melhor pizza do Maranhao.
+                A pizza que você respeita, o recheio que você merece.
               </p>
             </div>
 

@@ -55,7 +55,7 @@ export function Hero() {
           }`}
           style={{ transitionDelay: "0.4s" }}
         >
-          Brejo, Maranhao — Tradição e Sabor desde o Primeiro Forno
+          Onde o que importa é o sabor de verdade.
         </p>
 
         {/* CTA Buttons */}
