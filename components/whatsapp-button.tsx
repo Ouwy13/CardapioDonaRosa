@@ -7,7 +7,7 @@ export function WhatsappButton() {
 
   return (
     <a
-      href="https://wa.me/5598884288598?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
+      href="https://wa.me/559884288598"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fazer pedido pelo WhatsApp"

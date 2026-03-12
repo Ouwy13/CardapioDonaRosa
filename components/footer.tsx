@@ -27,9 +27,9 @@ export function Footer() {
   }, [])
 
   return (
-    <footer 
+    <footer
       ref={ref}
-      id="contato" 
+      id="contato"
       className="relative pt-20 pb-8 px-4 scroll-mt-20 overflow-hidden"
     >
       {/* Background blur */}
@@ -39,16 +39,14 @@ export function Footer() {
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Glass container */}
-        <div className={`glass-strong rounded-2xl p-8 md:p-12 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0 blur-0" : "opacity-0 translate-y-8 blur-sm"
-        }`}>
+        <div className={`glass-strong rounded-2xl p-8 md:p-12 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0 blur-0" : "opacity-0 translate-y-8 blur-sm"
+          }`}>
           {/* Main Footer Content */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mb-12">
             {/* Column 1 - Logo & Tagline */}
-            <div 
-              className={`flex flex-col items-center md:items-start transition-all duration-500 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-              }`}
+            <div
+              className={`flex flex-col items-center md:items-start transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                }`}
               style={{ transitionDelay: "0.1s" }}
             >
               <div className="relative group">
@@ -69,10 +67,9 @@ export function Footer() {
             </div>
 
             {/* Column 2 - Contact */}
-            <div 
-              className={`text-center md:text-left transition-all duration-500 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-              }`}
+            <div
+              className={`text-center md:text-left transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                }`}
               style={{ transitionDelay: "0.2s" }}
             >
               <h3 className="text-sm uppercase tracking-[0.2em] text-secondary mb-6">
@@ -89,7 +86,7 @@ export function Footer() {
                   <span>@donarosapizzas__</span>
                 </a>
                 <a
-                  href="https://wa.me/5598884288598"
+                  href="https://wa.me/559884288598"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center md:justify-start gap-3 text-foreground/70 hover:text-primary transition-all duration-300"
@@ -101,10 +98,9 @@ export function Footer() {
             </div>
 
             {/* Column 3 - Location */}
-            <div 
-              className={`text-center md:text-left transition-all duration-500 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-              }`}
+            <div
+              className={`text-center md:text-left transition-all duration-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                }`}
               style={{ transitionDelay: "0.3s" }}
             >
               <h3 className="text-sm uppercase tracking-[0.2em] text-secondary mb-6">
@@ -127,10 +123,9 @@ export function Footer() {
           </div>
 
           {/* Copyright */}
-          <div 
-            className={`border-t border-white/5 pt-8 text-center transition-all duration-500 ${
-              isVisible ? "opacity-100" : "opacity-0"
-            }`}
+          <div
+            className={`border-t border-white/5 pt-8 text-center transition-all duration-500 ${isVisible ? "opacity-100" : "opacity-0"
+              }`}
             style={{ transitionDelay: "0.4s" }}
           >
             <p className="text-sm text-muted-foreground">
